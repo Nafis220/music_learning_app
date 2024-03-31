@@ -1,6 +1,5 @@
 "use client";
 
-import { Boxes } from "@/components/ui/background-boxes";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
@@ -49,9 +48,6 @@ const page = () => {
   ];
   return (
     <div className='min-h-screen bg-black py-12 pt-36 flex flex-col items-center justify-centerflex flex-col items-center justify-center'>
-      {/* <div className='absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none' /> */}
-      {/* <Boxes /> */}
-
       <h1 className='text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white'>
         Want to Develop Such Web Application ?
       </h1>
